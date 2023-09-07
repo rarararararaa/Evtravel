@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*====메인 페이지====*/
+.mainPage{
+	width: 1188px;
+	min-height: 900px;
+	background: #E5D489;
+}
+.mainPage-left{
+	border-right: 2px dashed #534538;
+	width: 869px;
+	height: 100%;
+	float: left;
+}
+/*====사이드====*/
+.mainPage-side{
+	border-left: 2px dashed #534538;
+	width: 400px;
+	background: #BFA878;
+}

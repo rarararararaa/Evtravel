@@ -5,18 +5,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<tiles:insertAttribute name="title"></tiles:insertAttribute>
 </head>
-<body>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/EvtravelMain.css"/>
+<body style="margin: 0;">
 <div class="wrapper">
 	<div class="main-header">
 		<tiles:insertAttribute name="header"></tiles:insertAttribute>
 	</div>
 	<div class="main-content">
 		<tiles:insertAttribute name="body"></tiles:insertAttribute>
-	</div>
-	<div class="main-footer">
-		<tiles:insertAttribute name="footer"></tiles:insertAttribute>
+		<tiles:insertAttribute name="side"></tiles:insertAttribute>
 	</div>
 </div>
 </body>

@@ -1,4 +1,4 @@
-package kr.spring.config;
+package kr.spring.evtravel;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
