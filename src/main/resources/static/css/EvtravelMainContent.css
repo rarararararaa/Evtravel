@@ -1,19 +1,65 @@
 @charset "UTF-8";
 /*====메인 페이지====*/
 .mainPage{
-	width: 1188px;
+	width: 1568px;
 	min-height: 900px;
+	display: flex;
 	background: #E5D489;
 }
 .mainPage-left{
 	border-right: 2px dashed #534538;
 	width: 869px;
-	height: 100%;
 	float: left;
+}
+.mainPage-right{
+	width: 300px;
 }
 /*====사이드====*/
 .mainPage-side{
 	border-left: 2px dashed #534538;
 	width: 400px;
 	background: #BFA878;
+}
+/*====로그인====*/
+.loginContent{
+	margin: 230px 450px;
+	width: 500px;
+	text-align: center;
+}
+.login-input{
+	padding-left: 40px;
+	width: 500px;
+	height: 65px;
+	font-size: 20px;
+	background-color: #FFF9DB;
+	border: 1px solid #A38F7C;
+	border-radius: 7px 7px 0 0;
+}
+#passwd{
+	border-top: none;
+	border-radius: 0 0 7px 7px;
+}
+.auto-login{
+	margin-top: 10px;	
+	font-size: 18px;
+	text-align: left;
+}
+.login-button{
+	margin-top: 14px;	
+	width: 540px;
+	height: 70px;
+	color: #FFE56B;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 7px;
+	border: 2px solid #E5D489;
+	background: #A38F7C;
+}
+.login-button:hover{
+	cursor: pointer;
+}
+#kakao{
+	color: #1E1E1E;
+	border: 2px solid #28231F;
+	background: #FFE56B;
 }

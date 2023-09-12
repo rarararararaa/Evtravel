@@ -14,7 +14,6 @@
 	</div>
 	<div class="main-content">
 		<tiles:insertAttribute name="body"></tiles:insertAttribute>
-		<tiles:insertAttribute name="side"></tiles:insertAttribute>
 	</div>
 </div>
 </body>

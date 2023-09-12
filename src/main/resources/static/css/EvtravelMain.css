@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*====메인 페이지====*/
 .wrapper{
-	width: 1920px;
+	width: 1900px;
 	min-height: 900px;
 }
 ul{
@@ -15,9 +15,6 @@ ul{
 	min-height: 900px;
 	background: #534538;
 	float: left;
-}
-.main-content{
-	display: flex;
 }
 /*====header====*/
 #logo{
