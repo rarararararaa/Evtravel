@@ -12,6 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 public class Evtravel_Controller {
 	@RequestMapping("/")
 	public String moveMain() {
+		//fdsjklfjlaks
 		return "redirect:/evtravel/main";
 	}
 	@RequestMapping("/evtravel/main")
